@@ -89,7 +89,7 @@ And make client-node.txt be:
 
 This setup means node ip1 and ip2 are used as servers while ip3 and ip4 are clients. All nodes are in the same cluster.
 
-This package has included the sample files for an 8-server-8-client environment (may need to update the ips/alias to match your machines).
+This package has included the sample files for an 8-server-8-client environment (may need to update the ips/alias to match your machines).   
 
 4.2 Experiment parameters. The parameters, e.g., number of keys, value sizes, are specified in: 
     
@@ -113,10 +113,11 @@ A set of scripts for data processing are provided in:
     xxx:/local/Scylla-PORT/eval-control/data_proc
     
 ## 6. Other Notes
-6.1 If the repository has to be cloned to a place different from /local/, e.g., /foo/, then the variable "local_dir" needs to be updated accordingly in the following file:
+6.1 If the repository has to be cloned to a place different from /local/, e.g., /foo/, then the variable "local_dir" needs to be updated accordingly in the following 2 files:
 
     /foo/Scylla-PORT/eval-control/parameters.bash
-    
+    /foo/Scylla-PORT/eval-control/scylla-BASE.yaml  (lines 31 and 36)
+        
 6.2 When the experiment is running, detailed logs are output to the screen, e.g., 
 
     Nodes up and normal: 
