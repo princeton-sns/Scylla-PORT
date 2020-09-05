@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O3 -DNDEBUG   CMakeFiles/ahost.dir/ahost.c.o CMakeFiles/ahost.dir/ares_getopt.c.o CMakeFiles/ahost.dir/ares_nowarn.c.o CMakeFiles/ahost.dir/ares_strcasecmp.c.o  -o bin/ahost -rdynamic lib/libcares.a -lnsl -lrt 

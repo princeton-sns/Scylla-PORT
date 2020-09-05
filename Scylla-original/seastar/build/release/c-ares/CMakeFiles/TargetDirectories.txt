@@ -1,0 +1,10 @@
+/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/edit_cache.dir
+/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/list_install_components.dir
+/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/install/local.dir
+/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/ahost.dir
+/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/adig.dir
+/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/install.dir
+/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/rebuild_cache.dir
+/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/c-ares.dir
+/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/acountry.dir
+/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/install/strip.dir

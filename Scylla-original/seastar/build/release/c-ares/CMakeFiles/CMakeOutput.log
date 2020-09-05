@@ -1,0 +1,2619 @@
+The system is: Linux - 4.4.0-116-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3c188/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c188.dir/build.make CMakeFiles/cmTC_3c188.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c188.dir/testCCompiler.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_3c188.dir/testCCompiler.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3c188
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c188.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_3c188.dir/testCCompiler.c.o  -o cmTC_3c188 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14b8d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_14b8d.dir/build.make CMakeFiles/cmTC_14b8d.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14b8d.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_14b8d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_14b8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14b8d.dir/link.txt --verbose=1
+/usr/bin/gcc      -v CMakeFiles/cmTC_14b8d.dir/CMakeCCompilerABI.c.o  -o cmTC_14b8d -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_14b8d' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWFB7Wb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_14b8d /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_14b8d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_14b8d/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_14b8d.dir/build.make CMakeFiles/cmTC_14b8d.dir/build]
+  ignore line: [make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_14b8d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc     -o CMakeFiles/cmTC_14b8d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_14b8d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14b8d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc      -v CMakeFiles/cmTC_14b8d.dir/CMakeCCompilerABI.c.o  -o cmTC_14b8d -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_14b8d' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWFB7Wb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_14b8d /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_14b8d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccWFB7Wb.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_14b8d] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_14b8d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f984/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f984.dir/build.make CMakeFiles/cmTC_5f984.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f984.dir/feature_tests.c.o
+/usr/bin/gcc    -std=c11 -o CMakeFiles/cmTC_5f984.dir/feature_tests.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5f984
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f984.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_5f984.dir/feature_tests.c.o  -o cmTC_5f984 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f703a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f703a.dir/build.make CMakeFiles/cmTC_f703a.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f703a.dir/feature_tests.c.o
+/usr/bin/gcc    -std=c99 -o CMakeFiles/cmTC_f703a.dir/feature_tests.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f703a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f703a.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_f703a.dir/feature_tests.c.o  -o cmTC_f703a -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad902/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad902.dir/build.make CMakeFiles/cmTC_ad902.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad902.dir/feature_tests.c.o
+/usr/bin/gcc    -std=c90 -o CMakeFiles/cmTC_ad902.dir/feature_tests.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ad902
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad902.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_ad902.dir/feature_tests.c.o  -o cmTC_ad902 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the function gethostbyname exists in the nsl passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69886/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69886.dir/build.make CMakeFiles/cmTC_69886.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69886.dir/CheckFunctionExists.c.o
+/usr/bin/gcc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_69886.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_69886
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69886.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_69886.dir/CheckFunctionExists.c.o  -o cmTC_69886 -rdynamic -lnsl 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24c4a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_24c4a.dir/build.make CMakeFiles/cmTC_24c4a.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24c4a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc    -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_24c4a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_24c4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24c4a.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_24c4a.dir/CheckFunctionExists.c.o  -o cmTC_24c4a -rdynamic -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53cfc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53cfc.dir/build.make CMakeFiles/cmTC_53cfc.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53cfc.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_53cfc.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_53cfc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53cfc.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_53cfc.dir/CheckIncludeFiles.c.o  -o cmTC_53cfc -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/socket.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_959db/fast"
+/usr/bin/make -f CMakeFiles/cmTC_959db.dir/build.make CMakeFiles/cmTC_959db.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_959db.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_959db.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_959db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_959db.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_959db.dir/CheckIncludeFiles.c.o  -o cmTC_959db -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files arpa/inet.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8871/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8871.dir/build.make CMakeFiles/cmTC_e8871.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8871.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_e8871.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e8871
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8871.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_e8871.dir/CheckIncludeFiles.c.o  -o cmTC_e8871 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files arpa/nameser_compat.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e73de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e73de.dir/build.make CMakeFiles/cmTC_e73de.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e73de.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_e73de.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e73de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e73de.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_e73de.dir/CheckIncludeFiles.c.o  -o cmTC_e73de -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files arpa/nameser.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8770/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8770.dir/build.make CMakeFiles/cmTC_b8770.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8770.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_b8770.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_b8770
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8770.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_b8770.dir/CheckIncludeFiles.c.o  -o cmTC_b8770 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files assert.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6033/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a6033.dir/build.make CMakeFiles/cmTC_a6033.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6033.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_a6033.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a6033
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6033.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_a6033.dir/CheckIncludeFiles.c.o  -o cmTC_a6033 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files errno.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b937b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b937b.dir/build.make CMakeFiles/cmTC_b937b.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b937b.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_b937b.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_b937b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b937b.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_b937b.dir/CheckIncludeFiles.c.o  -o cmTC_b937b -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f837b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f837b.dir/build.make CMakeFiles/cmTC_f837b.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f837b.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_f837b.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_f837b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f837b.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_f837b.dir/CheckIncludeFiles.c.o  -o cmTC_f837b -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4d456/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4d456.dir/build.make CMakeFiles/cmTC_4d456.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d456.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_4d456.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_4d456
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d456.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_4d456.dir/CheckIncludeFiles.c.o  -o cmTC_4d456 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files limits.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eaf88/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eaf88.dir/build.make CMakeFiles/cmTC_eaf88.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eaf88.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_eaf88.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_eaf88
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaf88.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_eaf88.dir/CheckIncludeFiles.c.o  -o cmTC_eaf88 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be94f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be94f.dir/build.make CMakeFiles/cmTC_be94f.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be94f.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_be94f.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_be94f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be94f.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_be94f.dir/CheckIncludeFiles.c.o  -o cmTC_be94f -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82f02/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82f02.dir/build.make CMakeFiles/cmTC_82f02.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82f02.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_82f02.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_82f02
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82f02.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_82f02.dir/CheckIncludeFiles.c.o  -o cmTC_82f02 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files netdb.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5eede/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5eede.dir/build.make CMakeFiles/cmTC_5eede.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5eede.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_5eede.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_5eede
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5eede.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_5eede.dir/CheckIncludeFiles.c.o  -o cmTC_5eede -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files netinet/in.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18c02/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18c02.dir/build.make CMakeFiles/cmTC_18c02.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18c02.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_18c02.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_18c02
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18c02.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_18c02.dir/CheckIncludeFiles.c.o  -o cmTC_18c02 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files netinet/tcp.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38592/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38592.dir/build.make CMakeFiles/cmTC_38592.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38592.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_38592.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_38592
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38592.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_38592.dir/CheckIncludeFiles.c.o  -o cmTC_38592 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files net/if.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68b8f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68b8f.dir/build.make CMakeFiles/cmTC_68b8f.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68b8f.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_68b8f.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_68b8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68b8f.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_68b8f.dir/CheckIncludeFiles.c.o  -o cmTC_68b8f -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files signal.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d3e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d3e3.dir/build.make CMakeFiles/cmTC_9d3e3.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d3e3.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_9d3e3.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_9d3e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d3e3.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_9d3e3.dir/CheckIncludeFiles.c.o  -o cmTC_9d3e3 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03f4e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03f4e.dir/build.make CMakeFiles/cmTC_03f4e.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03f4e.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_03f4e.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_03f4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03f4e.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_03f4e.dir/CheckIncludeFiles.c.o  -o cmTC_03f4e -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71288/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71288.dir/build.make CMakeFiles/cmTC_71288.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71288.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_71288.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_71288
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71288.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_71288.dir/CheckIncludeFiles.c.o  -o cmTC_71288 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e395c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e395c.dir/build.make CMakeFiles/cmTC_e395c.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e395c.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_e395c.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e395c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e395c.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_e395c.dir/CheckIncludeFiles.c.o  -o cmTC_e395c -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7fe33/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7fe33.dir/build.make CMakeFiles/cmTC_7fe33.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fe33.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_7fe33.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_7fe33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fe33.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_7fe33.dir/CheckIncludeFiles.c.o  -o cmTC_7fe33 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51ac3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51ac3.dir/build.make CMakeFiles/cmTC_51ac3.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51ac3.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_51ac3.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_51ac3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51ac3.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_51ac3.dir/CheckIncludeFiles.c.o  -o cmTC_51ac3 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files stropts.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61fe7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61fe7.dir/build.make CMakeFiles/cmTC_61fe7.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61fe7.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_61fe7.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_61fe7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61fe7.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_61fe7.dir/CheckIncludeFiles.c.o  -o cmTC_61fe7 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/ioctl.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf3bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf3bf.dir/build.make CMakeFiles/cmTC_bf3bf.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf3bf.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_bf3bf.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_bf3bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf3bf.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_bf3bf.dir/CheckIncludeFiles.c.o  -o cmTC_bf3bf -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/param.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f619/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f619.dir/build.make CMakeFiles/cmTC_8f619.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f619.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_8f619.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_8f619
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f619.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_8f619.dir/CheckIncludeFiles.c.o  -o cmTC_8f619 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/select.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d32dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d32dd.dir/build.make CMakeFiles/cmTC_d32dd.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d32dd.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_d32dd.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d32dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d32dd.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_d32dd.dir/CheckIncludeFiles.c.o  -o cmTC_d32dd -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21502/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21502.dir/build.make CMakeFiles/cmTC_21502.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21502.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_21502.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_21502
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21502.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_21502.dir/CheckIncludeFiles.c.o  -o cmTC_21502 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d224/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d224.dir/build.make CMakeFiles/cmTC_7d224.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d224.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_7d224.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_7d224
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d224.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_7d224.dir/CheckIncludeFiles.c.o  -o cmTC_7d224 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/uio.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b974/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b974.dir/build.make CMakeFiles/cmTC_3b974.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b974.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_3b974.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_3b974
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b974.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_3b974.dir/CheckIncludeFiles.c.o  -o cmTC_3b974 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7046/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d7046.dir/build.make CMakeFiles/cmTC_d7046.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7046.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_d7046.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d7046
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7046.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_d7046.dir/CheckIncludeFiles.c.o  -o cmTC_d7046 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17b77/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17b77.dir/build.make CMakeFiles/cmTC_17b77.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17b77.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_17b77.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_17b77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17b77.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_17b77.dir/CheckIncludeFiles.c.o  -o cmTC_17b77 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07174/fast"
+/usr/bin/make -f CMakeFiles/cmTC_07174.dir/build.make CMakeFiles/cmTC_07174.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07174.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_07174.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_07174
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07174.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_07174.dir/CheckIncludeFiles.c.o  -o cmTC_07174 -rdynamic 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_SOCKLEN_T succeeded with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70f05/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70f05.dir/build.make CMakeFiles/cmTC_70f05.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70f05.dir/src.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_SOCKLEN_T   -o CMakeFiles/cmTC_70f05.dir/src.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_70f05
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70f05.dir/link.txt --verbose=1
+/usr/bin/gcc   -DHAVE_SOCKLEN_T    CMakeFiles/cmTC_70f05.dir/src.c.o  -o cmTC_70f05 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			socklen_t var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_BOOL_T succeeded with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73014/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73014.dir/build.make CMakeFiles/cmTC_73014.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73014.dir/src.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_BOOL_T   -o CMakeFiles/cmTC_73014.dir/src.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_73014
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73014.dir/link.txt --verbose=1
+/usr/bin/gcc   -DHAVE_BOOL_T    CMakeFiles/cmTC_73014.dir/src.c.o  -o cmTC_73014 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			bool var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_SSIZE_T succeeded with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a629/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a629.dir/build.make CMakeFiles/cmTC_9a629.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a629.dir/src.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_SSIZE_T   -o CMakeFiles/cmTC_9a629.dir/src.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9a629
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a629.dir/link.txt --verbose=1
+/usr/bin/gcc   -DHAVE_SSIZE_T    CMakeFiles/cmTC_9a629.dir/src.c.o  -o cmTC_9a629 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			ssize_t var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_LONGLONG succeeded with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a886d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a886d.dir/build.make CMakeFiles/cmTC_a886d.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a886d.dir/src.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_LONGLONG   -o CMakeFiles/cmTC_a886d.dir/src.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a886d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a886d.dir/link.txt --verbose=1
+/usr/bin/gcc   -DHAVE_LONGLONG    CMakeFiles/cmTC_a886d.dir/src.c.o  -o cmTC_a886d -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			long long var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_SIG_ATOMIC_T succeeded with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ed27/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ed27.dir/build.make CMakeFiles/cmTC_0ed27.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ed27.dir/src.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_SIG_ATOMIC_T   -o CMakeFiles/cmTC_0ed27.dir/src.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0ed27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ed27.dir/link.txt --verbose=1
+/usr/bin/gcc   -DHAVE_SIG_ATOMIC_T    CMakeFiles/cmTC_0ed27.dir/src.c.o  -o cmTC_0ed27 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			sig_atomic_t var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_ADDRINFO succeeded with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a8cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a8cd.dir/build.make CMakeFiles/cmTC_5a8cd.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a8cd.dir/src.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_STRUCT_ADDRINFO   -o CMakeFiles/cmTC_5a8cd.dir/src.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5a8cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a8cd.dir/link.txt --verbose=1
+/usr/bin/gcc   -DHAVE_STRUCT_ADDRINFO    CMakeFiles/cmTC_5a8cd.dir/src.c.o  -o cmTC_5a8cd -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct addrinfo var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_IN6_ADDR succeeded with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_84bee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_84bee.dir/build.make CMakeFiles/cmTC_84bee.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_84bee.dir/src.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_STRUCT_IN6_ADDR   -o CMakeFiles/cmTC_84bee.dir/src.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_84bee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84bee.dir/link.txt --verbose=1
+/usr/bin/gcc   -DHAVE_STRUCT_IN6_ADDR    CMakeFiles/cmTC_84bee.dir/src.c.o  -o cmTC_84bee -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct in6_addr var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_IN6 succeeded with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_baf2b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_baf2b.dir/build.make CMakeFiles/cmTC_baf2b.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_baf2b.dir/src.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_STRUCT_SOCKADDR_IN6   -o CMakeFiles/cmTC_baf2b.dir/src.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_baf2b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baf2b.dir/link.txt --verbose=1
+/usr/bin/gcc   -DHAVE_STRUCT_SOCKADDR_IN6    CMakeFiles/cmTC_baf2b.dir/src.c.o  -o cmTC_baf2b -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct sockaddr_in6 var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_STORAGE succeeded with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58c43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58c43.dir/build.make CMakeFiles/cmTC_58c43.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58c43.dir/src.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_STRUCT_SOCKADDR_STORAGE   -o CMakeFiles/cmTC_58c43.dir/src.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_58c43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58c43.dir/link.txt --verbose=1
+/usr/bin/gcc   -DHAVE_STRUCT_SOCKADDR_STORAGE    CMakeFiles/cmTC_58c43.dir/src.c.o  -o cmTC_58c43 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct sockaddr_storage var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2f75/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2f75.dir/build.make CMakeFiles/cmTC_b2f75.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2f75.dir/src.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_STRUCT_TIMEVAL   -o CMakeFiles/cmTC_b2f75.dir/src.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b2f75
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2f75.dir/link.txt --verbose=1
+/usr/bin/gcc   -DHAVE_STRUCT_TIMEVAL    CMakeFiles/cmTC_b2f75.dir/src.c.o  -o cmTC_b2f75 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct timeval var_exists;
+			return 0;
+		}
+	
+Determining if the AF_INET6 exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28edf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28edf.dir/build.make CMakeFiles/cmTC_28edf.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28edf.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_28edf.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_28edf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28edf.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_28edf.dir/CheckSymbolExists.c.o  -o cmTC_28edf -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef AF_INET6
+  return ((int*)(&AF_INET6))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the O_NONBLOCK exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25720/fast"
+/usr/bin/make -f CMakeFiles/cmTC_25720.dir/build.make CMakeFiles/cmTC_25720.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25720.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_25720.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_25720
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25720.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_25720.dir/CheckSymbolExists.c.o  -o cmTC_25720 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef O_NONBLOCK
+  return ((int*)(&O_NONBLOCK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FIONBIO exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08716/fast"
+/usr/bin/make -f CMakeFiles/cmTC_08716.dir/build.make CMakeFiles/cmTC_08716.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08716.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_08716.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_08716
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08716.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_08716.dir/CheckSymbolExists.c.o  -o cmTC_08716 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FIONBIO
+  return ((int*)(&FIONBIO))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the SIOCGIFADDR exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9df2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9df2.dir/build.make CMakeFiles/cmTC_d9df2.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9df2.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_d9df2.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d9df2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9df2.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_d9df2.dir/CheckSymbolExists.c.o  -o cmTC_d9df2 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SIOCGIFADDR
+  return ((int*)(&SIOCGIFADDR))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the MSG_NOSIGNAL exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6a49b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6a49b.dir/build.make CMakeFiles/cmTC_6a49b.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a49b.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_6a49b.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6a49b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a49b.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_6a49b.dir/CheckSymbolExists.c.o  -o cmTC_6a49b -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef MSG_NOSIGNAL
+  return ((int*)(&MSG_NOSIGNAL))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the PF_INET6 exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23c7f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23c7f.dir/build.make CMakeFiles/cmTC_23c7f.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23c7f.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_23c7f.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_23c7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23c7f.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_23c7f.dir/CheckSymbolExists.c.o  -o cmTC_23c7f -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PF_INET6
+  return ((int*)(&PF_INET6))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CLOCK_MONOTONIC exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f007a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f007a.dir/build.make CMakeFiles/cmTC_f007a.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f007a.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_f007a.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f007a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f007a.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_f007a.dir/CheckSymbolExists.c.o  -o cmTC_f007a -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CLOCK_MONOTONIC
+  return ((int*)(&CLOCK_MONOTONIC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID succeeded with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_daae3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_daae3.dir/build.make CMakeFiles/cmTC_daae3.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_daae3.dir/src.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_SOCKADDR_IN6_SIN6_SCOPE_ID   -o CMakeFiles/cmTC_daae3.dir/src.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_daae3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_daae3.dir/link.txt --verbose=1
+/usr/bin/gcc   -DHAVE_SOCKADDR_IN6_SIN6_SCOPE_ID    CMakeFiles/cmTC_daae3.dir/src.c.o  -o cmTC_daae3 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_in6 *)0)->sin6_scope_id);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_LL succeeded with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59109/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59109.dir/build.make CMakeFiles/cmTC_59109.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59109.dir/src.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_LL   -o CMakeFiles/cmTC_59109.dir/src.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_59109
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59109.dir/link.txt --verbose=1
+/usr/bin/gcc   -DHAVE_LL    CMakeFiles/cmTC_59109.dir/src.c.o  -o cmTC_59109 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { int n=1234LL; return 0; }
+Determining if the connect exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6fd35/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6fd35.dir/build.make CMakeFiles/cmTC_6fd35.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6fd35.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_6fd35.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6fd35
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fd35.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_6fd35.dir/CheckSymbolExists.c.o  -o cmTC_6fd35 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef connect
+  return ((int*)(&connect))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fcntl exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d339/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d339.dir/build.make CMakeFiles/cmTC_3d339.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d339.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_3d339.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3d339
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d339.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_3d339.dir/CheckSymbolExists.c.o  -o cmTC_3d339 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53e2b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53e2b.dir/build.make CMakeFiles/cmTC_53e2b.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53e2b.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_53e2b.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_53e2b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53e2b.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_53e2b.dir/CheckSymbolExists.c.o  -o cmTC_53e2b -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getaddrinfo exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e9e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9e9e5.dir/build.make CMakeFiles/cmTC_9e9e5.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e9e5.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_9e9e5.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9e9e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e9e5.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_9e9e5.dir/CheckSymbolExists.c.o  -o cmTC_9e9e5 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getaddrinfo
+  return ((int*)(&getaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getenv exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e4a2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e4a2.dir/build.make CMakeFiles/cmTC_7e4a2.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e4a2.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_7e4a2.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7e4a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e4a2.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_7e4a2.dir/CheckSymbolExists.c.o  -o cmTC_7e4a2 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getenv
+  return ((int*)(&getenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gethostbyaddr exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d73d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d73d1.dir/build.make CMakeFiles/cmTC_d73d1.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d73d1.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_d73d1.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d73d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d73d1.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_d73d1.dir/CheckSymbolExists.c.o  -o cmTC_d73d1 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyaddr
+  return ((int*)(&gethostbyaddr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fc648/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fc648.dir/build.make CMakeFiles/cmTC_fc648.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc648.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_fc648.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fc648
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc648.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_fc648.dir/CheckSymbolExists.c.o  -o cmTC_fc648 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gethostname exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bed99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bed99.dir/build.make CMakeFiles/cmTC_bed99.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bed99.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_bed99.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bed99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bed99.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_bed99.dir/CheckSymbolExists.c.o  -o cmTC_bed99 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostname
+  return ((int*)(&gethostname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getnameinfo exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cbade/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cbade.dir/build.make CMakeFiles/cmTC_cbade.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cbade.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_cbade.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cbade
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbade.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_cbade.dir/CheckSymbolExists.c.o  -o cmTC_cbade -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getnameinfo
+  return ((int*)(&getnameinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getservbyport_r exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be6a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be6a4.dir/build.make CMakeFiles/cmTC_be6a4.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be6a4.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_be6a4.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_be6a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be6a4.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_be6a4.dir/CheckSymbolExists.c.o  -o cmTC_be6a4 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getservbyport_r
+  return ((int*)(&getservbyport_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_adff3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_adff3.dir/build.make CMakeFiles/cmTC_adff3.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_adff3.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_adff3.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_adff3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adff3.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_adff3.dir/CheckSymbolExists.c.o  -o cmTC_adff3 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the if_indextoname exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f210c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f210c.dir/build.make CMakeFiles/cmTC_f210c.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f210c.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_f210c.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f210c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f210c.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_f210c.dir/CheckSymbolExists.c.o  -o cmTC_f210c -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef if_indextoname
+  return ((int*)(&if_indextoname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_ntop exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc333/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc333.dir/build.make CMakeFiles/cmTC_bc333.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc333.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_bc333.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bc333
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc333.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_bc333.dir/CheckSymbolExists.c.o  -o cmTC_bc333 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_ntop
+  return ((int*)(&inet_ntop))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_pton exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2b42/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2b42.dir/build.make CMakeFiles/cmTC_e2b42.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2b42.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_e2b42.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e2b42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2b42.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_e2b42.dir/CheckSymbolExists.c.o  -o cmTC_e2b42 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ioctl exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c2194/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2194.dir/build.make CMakeFiles/cmTC_c2194.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2194.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_c2194.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c2194
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2194.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_c2194.dir/CheckSymbolExists.c.o  -o cmTC_c2194 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctl
+  return ((int*)(&ioctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the recv exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0781/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0781.dir/build.make CMakeFiles/cmTC_f0781.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0781.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_f0781.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f0781
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0781.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_f0781.dir/CheckSymbolExists.c.o  -o cmTC_f0781 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef recv
+  return ((int*)(&recv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the recvfrom exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bdf63/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bdf63.dir/build.make CMakeFiles/cmTC_bdf63.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bdf63.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_bdf63.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bdf63
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdf63.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_bdf63.dir/CheckSymbolExists.c.o  -o cmTC_bdf63 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef recvfrom
+  return ((int*)(&recvfrom))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the send exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c911/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1c911.dir/build.make CMakeFiles/cmTC_1c911.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c911.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_1c911.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1c911
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c911.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_1c911.dir/CheckSymbolExists.c.o  -o cmTC_1c911 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef send
+  return ((int*)(&send))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setsockopt exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1dcd6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1dcd6.dir/build.make CMakeFiles/cmTC_1dcd6.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1dcd6.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_1dcd6.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1dcd6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dcd6.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_1dcd6.dir/CheckSymbolExists.c.o  -o cmTC_1dcd6 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the socket exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93d69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93d69.dir/build.make CMakeFiles/cmTC_93d69.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93d69.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_93d69.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_93d69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93d69.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_93d69.dir/CheckSymbolExists.c.o  -o cmTC_93d69 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef socket
+  return ((int*)(&socket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_636e8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_636e8.dir/build.make CMakeFiles/cmTC_636e8.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_636e8.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_636e8.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_636e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_636e8.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_636e8.dir/CheckSymbolExists.c.o  -o cmTC_636e8 -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strdup exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b454e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b454e.dir/build.make CMakeFiles/cmTC_b454e.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b454e.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_b454e.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b454e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b454e.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_b454e.dir/CheckSymbolExists.c.o  -o cmTC_b454e -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strdup
+  return ((int*)(&strdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d19a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d19a.dir/build.make CMakeFiles/cmTC_8d19a.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d19a.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_8d19a.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8d19a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d19a.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_8d19a.dir/CheckSymbolExists.c.o  -o cmTC_8d19a -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the writev exist passed with the following output:
+Change Dir: /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6843e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6843e.dir/build.make CMakeFiles/cmTC_6843e.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6843e.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_6843e.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6843e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6843e.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_6843e.dir/CheckSymbolExists.c.o  -o cmTC_6843e -rdynamic -lnsl -lrt 
+make[1]: Leaving directory '/local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+
+File /local/scylladb/Scylla-original/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef writev
+  return ((int*)(&writev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

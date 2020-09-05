@@ -1,0 +1,792 @@
+Determining if the function res_servicename exists in the resolv failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46006/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46006.dir/build.make CMakeFiles/cmTC_46006.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46006.dir/CheckFunctionExists.c.o
+/usr/bin/gcc    -DCHECK_FUNCTION_EXISTS=res_servicename   -o CMakeFiles/cmTC_46006.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_46006
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46006.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=res_servicename    CMakeFiles/cmTC_46006.dir/CheckFunctionExists.c.o  -o cmTC_46006 -rdynamic -lresolv 
+CMakeFiles/cmTC_46006.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `res_servicename'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_46006.dir/build.make:97: recipe for target 'cmTC_46006' failed
+make[1]: *** [cmTC_46006] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_46006/fast' failed
+make: *** [cmTC_46006/fast] Error 2
+
+
+Determining if the function gethostbyname exists in the socket failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a2ecf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a2ecf.dir/build.make CMakeFiles/cmTC_a2ecf.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2ecf.dir/CheckFunctionExists.c.o
+/usr/bin/gcc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_a2ecf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a2ecf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2ecf.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_a2ecf.dir/CheckFunctionExists.c.o  -o cmTC_a2ecf -rdynamic -lsocket 
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a2ecf.dir/build.make:97: recipe for target 'cmTC_a2ecf' failed
+make[1]: *** [cmTC_a2ecf] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a2ecf/fast' failed
+make: *** [cmTC_a2ecf/fast] Error 2
+
+
+Determining if files socket.h exist failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fac5a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fac5a.dir/build.make CMakeFiles/cmTC_fac5a.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fac5a.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_fac5a.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: socket.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_fac5a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_fac5a.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_fac5a.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fac5a/fast' failed
+make: *** [cmTC_fac5a/fast] Error 2
+
+Source:
+/* */
+#include <socket.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock2.h;windows.h exist failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6b04f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6b04f.dir/build.make CMakeFiles/cmTC_6b04f.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b04f.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_6b04f.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: winsock2.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_6b04f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6b04f.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_6b04f.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6b04f/fast' failed
+make: *** [cmTC_6b04f/fast] Error 2
+
+Source:
+/* */
+#include <winsock2.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock2.h;ws2tcpip.h;windows.h exist failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5622/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a5622.dir/build.make CMakeFiles/cmTC_a5622.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5622.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_a5622.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: winsock2.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_a5622.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a5622.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a5622.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a5622/fast' failed
+make: *** [cmTC_a5622/fast] Error 2
+
+Source:
+/* */
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock.h;windows.h exist failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3f976/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3f976.dir/build.make CMakeFiles/cmTC_3f976.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3f976.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_3f976.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: winsock.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_3f976.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3f976.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_3f976.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3f976/fast' failed
+make: *** [cmTC_3f976/fast] Error 2
+
+Source:
+/* */
+#include <winsock.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b02bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b02bd.dir/build.make CMakeFiles/cmTC_b02bd.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b02bd.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_b02bd.dir/CheckIncludeFiles.c.o   -c /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: windows.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_b02bd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b02bd.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b02bd.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b02bd/fast' failed
+make: *** [cmTC_b02bd/fast] Error 2
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_TYPE_SOCKET failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5734/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5734.dir/build.make CMakeFiles/cmTC_b5734.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5734.dir/src.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_TYPE_SOCKET   -o CMakeFiles/cmTC_b5734.dir/src.c.o   -c /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/src.c
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/src.c:26:4: error: unknown type name 'SOCKET'
+    SOCKET var_exists;
+    ^
+CMakeFiles/cmTC_b5734.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b5734.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b5734.dir/src.c.o] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b5734/fast' failed
+make: *** [cmTC_b5734/fast] Error 2
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			SOCKET var_exists;
+			return 0;
+		}
+	
+Determining if the SO_NONBLOCK exist failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8fb42/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8fb42.dir/build.make CMakeFiles/cmTC_8fb42.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8fb42.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_8fb42.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'SO_NONBLOCK' undeclared (first use in this function)
+   return ((int*)(&SO_NONBLOCK))[argc];
+                   ^
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_8fb42.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8fb42.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8fb42.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8fb42/fast' failed
+make: *** [cmTC_8fb42/fast] Error 2
+
+File /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SO_NONBLOCK
+  return ((int*)(&SO_NONBLOCK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the bitncmp exist failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6c39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a6c39.dir/build.make CMakeFiles/cmTC_a6c39.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6c39.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_a6c39.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'bitncmp' undeclared (first use in this function)
+   return ((int*)(&bitncmp))[argc];
+                   ^
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_a6c39.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a6c39.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a6c39.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a6c39/fast' failed
+make: *** [cmTC_a6c39/fast] Error 2
+
+File /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bitncmp
+  return ((int*)(&bitncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the closesocket exist failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dce12/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dce12.dir/build.make CMakeFiles/cmTC_dce12.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dce12.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_dce12.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'closesocket' undeclared (first use in this function)
+   return ((int*)(&closesocket))[argc];
+                   ^
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_dce12.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_dce12.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_dce12.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dce12/fast' failed
+make: *** [cmTC_dce12/fast] Error 2
+
+File /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef closesocket
+  return ((int*)(&closesocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CloseSocket exist failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_274b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_274b1.dir/build.make CMakeFiles/cmTC_274b1.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_274b1.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_274b1.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'CloseSocket' undeclared (first use in this function)
+   return ((int*)(&CloseSocket))[argc];
+                   ^
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_274b1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_274b1.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_274b1.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_274b1/fast' failed
+make: *** [cmTC_274b1/fast] Error 2
+
+File /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CloseSocket
+  return ((int*)(&CloseSocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_net_pton exist failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b52f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b52f.dir/build.make CMakeFiles/cmTC_2b52f.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b52f.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_2b52f.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2b52f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b52f.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_2b52f.dir/CheckSymbolExists.c.o  -o cmTC_2b52f -rdynamic -lnsl -lrt 
+CMakeFiles/cmTC_2b52f.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `inet_net_pton'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2b52f.dir/build.make:97: recipe for target 'cmTC_2b52f' failed
+make[1]: *** [cmTC_2b52f] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2b52f/fast' failed
+make: *** [cmTC_2b52f/fast] Error 2
+
+File /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_net_pton
+  return ((int*)(&inet_net_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ioctlsocket exist failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75864/fast"
+/usr/bin/make -f CMakeFiles/cmTC_75864.dir/build.make CMakeFiles/cmTC_75864.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75864.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_75864.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'ioctlsocket' undeclared (first use in this function)
+   return ((int*)(&ioctlsocket))[argc];
+                   ^
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_75864.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_75864.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_75864.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_75864/fast' failed
+make: *** [cmTC_75864/fast] Error 2
+
+File /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctlsocket
+  return ((int*)(&ioctlsocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the IoctlSocket exist failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26ecc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26ecc.dir/build.make CMakeFiles/cmTC_26ecc.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26ecc.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_26ecc.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'IoctlSocket' undeclared (first use in this function)
+   return ((int*)(&IoctlSocket))[argc];
+                   ^
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_26ecc.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_26ecc.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_26ecc.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_26ecc/fast' failed
+make: *** [cmTC_26ecc/fast] Error 2
+
+File /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef IoctlSocket
+  return ((int*)(&IoctlSocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcmpi exist failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91a46/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91a46.dir/build.make CMakeFiles/cmTC_91a46.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91a46.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_91a46.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'strcmpi' undeclared (first use in this function)
+   return ((int*)(&strcmpi))[argc];
+                   ^
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_91a46.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_91a46.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_91a46.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_91a46/fast' failed
+make: *** [cmTC_91a46/fast] Error 2
+
+File /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmpi
+  return ((int*)(&strcmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the stricmp exist failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d5a2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d5a2.dir/build.make CMakeFiles/cmTC_3d5a2.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d5a2.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_3d5a2.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'stricmp' undeclared (first use in this function)
+   return ((int*)(&stricmp))[argc];
+                   ^
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_3d5a2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3d5a2.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_3d5a2.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3d5a2/fast' failed
+make: *** [cmTC_3d5a2/fast] Error 2
+
+File /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef stricmp
+  return ((int*)(&stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncmpi exist failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_caedc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_caedc.dir/build.make CMakeFiles/cmTC_caedc.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_caedc.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_caedc.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'strncmpi' undeclared (first use in this function)
+   return ((int*)(&strncmpi))[argc];
+                   ^
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_caedc.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_caedc.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_caedc.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_caedc/fast' failed
+make: *** [cmTC_caedc/fast] Error 2
+
+File /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmpi
+  return ((int*)(&strncmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strnicmp exist failed with the following output:
+Change Dir: /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4921/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4921.dir/build.make CMakeFiles/cmTC_c4921.dir/build
+make[1]: Entering directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4921.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600   -o CMakeFiles/cmTC_c4921.dir/CheckSymbolExists.c.o   -c /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: error: 'strnicmp' undeclared (first use in this function)
+   return ((int*)(&strnicmp))[argc];
+                   ^
+/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:27:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_c4921.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c4921.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c4921.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c4921/fast' failed
+make: *** [cmTC_c4921/fast] Error 2
+
+File /local/scylladb/Scylla-moon/seastar/build/release/c-ares/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnicmp
+  return ((int*)(&strnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
