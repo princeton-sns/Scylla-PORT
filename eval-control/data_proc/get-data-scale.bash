@@ -1,9 +1,9 @@
 #!/bin/bash
 
-source ../parameters.bash
+source ./parameters.bash
 
-node=16
-file="1555489233"
+node=2
+file="1523946567"
 system="Scylla-moon"
 thread="32"
 workload="workloadb"
