@@ -28,7 +28,7 @@ We highly recommend re-creating the experimental environment close to the settin
   
     replace ninja-1.8.2/.clang-format? [y]es, [n]o, [A]ll, [N]one, [r]ename:
   
-  Run the following command to hard set the number of file descriptors (Important: ScyllaDB will not run if nfile is low):
+  Run the following command to hard set the number of file descriptors (Important: ScyllaDB will not run if nfile is low), may need to relaunch ssh session:
   
     xxx:/local/Scylla-PORT$ sudo ./inc_fd_num.sh      
 
