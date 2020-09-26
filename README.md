@@ -58,7 +58,7 @@ We highly recommend re-creating the experimental environment close to the settin
     sudo systemctl daemon-reload
     sudo systemctl start scylla-jmx
    
-3.4 Build on a cluster of nodes: please repeat the steps 3.1 to 3.3 on all the machines Scylla-PORT will be run on. An easier option is to make an image that contains a built Scylla-PORT system (e.g., after done 3.3) and start all the other machines by loading the image (Cloud platforms like Emulab and Azure normally have this image creation functionality). Another option is to use scp to copy everything in the /local directory to the /local directory on the other nodes (need to install dependencies on other nodes first, e.g., step 3.2. Due to the large size of the system, scp may take a while).
+3.4 Build on a cluster of nodes: please repeat the steps 3.1 to 3.3 on all the machines Scylla-PORT will be run on. An easier option is to make an image that contains a built Scylla-PORT system (e.g., after done 3.3) and start all the other machines by loading the image (Cloud platforms like Emulab and Azure normally have this image creation functionality). Another option is to repeat the above steps on every single node.
 
 ## 4. Run Experiments
 
