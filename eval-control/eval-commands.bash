@@ -37,6 +37,13 @@ compile-ycsb() { # compile ycsb clients when switching systems
     fi
     sleep 3     # for file system to propagate
     clients=$(cat ${client_nodes})
+    
+    echo " ... copying .m2 to all client nodes"
+    for client in ${clients}; do 
+        scp -r ~/.m2 ${client}:"$HOME" 
+    done
+
+    echo " ... now running mvn to compile ycsb on each client"
     for client in ${clients}; do
         # compile ycsb on each client
         ssh -o StrictHostKeyChecking=no ${client} " \
