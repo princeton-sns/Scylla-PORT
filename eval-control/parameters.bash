@@ -7,7 +7,7 @@
 user="$USER"
 group="cops"
 local_dir="/local"  # we assume the repo is cloned to /local, if not, e.g., /foo, then change this to "/foo"
-scylla_dir="${local_dir}/scylladb"
+scylla_dir="${local_dir}/Scylla-PORT"
 conf_dir="${scylla_dir}/conf"
 scripts_dir="${scylla_dir}/scripts"
 var_dir="${scylla_dir}/scylla_var"
