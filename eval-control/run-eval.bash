@@ -23,7 +23,7 @@ for trial in $(seq ${trials}); do
 #    for system in Scylla-original; do
 #    for system in Scylla-occ; do
 	clean-up
-	./kill-control.bash
+#	./kill-control.bash
 sleep 10
         compile-ycsb ${system}
 sleep 10
