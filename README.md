@@ -112,6 +112,18 @@ A set of scripts for data processing are provided in:
 
     xxx:/local/Scylla-PORT/eval-control/data_proc
     
+To get latency, on the control node: please first change the global variables in get-latency.bash, e.g., file (expt_id), system, and number of clients, and then run:
+
+    xxx:/local/Scylla-PORT/eval-control/data_proc$ ./get-latency.bash
+    
+The output is in the format "sysmte_name : number_of_threads : latency".
+
+To get throughput, on the control node, please first change the global variables accordingly, and then run:
+
+    xxx:/local/Scylla-PORT/eval-control/data_proc$ ./get-throughput.bash
+    
+The output is in the format "sysmte_name : number_of_threads : throughput".    
+    
 ## 6. Other Notes
 6.1 If the repository has to be cloned to a place different from /local/, e.g., /foo/, then the variable "local_dir" needs to be updated accordingly in the following 2 files:
 
